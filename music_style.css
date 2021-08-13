@@ -1,0 +1,26 @@
+body {
+  background-color: #9DC4D1;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "arial";
+  font-size: 45px;
+}
+.player {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+  border: 3px solid;
+
+}
+.playpause,
+.rewind,
+.forward {
+  padding: 25px;
+  justify-content: center;
+}
